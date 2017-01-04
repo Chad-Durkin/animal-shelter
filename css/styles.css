@@ -1,6 +1,41 @@
-.column {
+@media screen and (min-width: 700px) {
+
+.column-one {
   width: 30%;
   float: left;
+  background-color: red;
+}
+.column-two {
+  width: 30%;
+  float: left;
+  background-color: pink;
+}
+.column-three {
+  width: 30%;
+  float: left;
+  background-color: yellow;
+}
+
+img {
+  width:100%;
+  height: 300px;
+}
+
+}
+
+
+.column-one {
+  width: 100%;
+}
+.column-two {
+  width: 100%;
+}
+.column-three {
+  width: 100%;
+}
+body {
+  color: gold;
+  background-color: black;
 }
 
 img {

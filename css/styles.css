@@ -21,25 +21,28 @@ img {
 @media screen and (min-width: 700px) {
 
 .column-one {
-  width: 33.3%;
+  width: 30%;
   float: left;
   background-color: red;
   height: 500px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  margin: 5px;
 }
 .column-two {
-  width: 33.3%;
+  width: 30%;
   height: 500px;
   float: left;
   background-color: pink;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  margin: 5px;
 }
 .column-three {
-  width: 33.3%;
+  width: 30%;
   height: 500px;
   float: left;
   background-color: green;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  margin: 5px;
 }
 
 img {
@@ -48,18 +51,27 @@ img {
 }
 
 body {
-  background-color: blue;
+  background-image: url(http://wallup.net/wp-content/uploads/2016/01/256718-cat-kittens-animals-baby_animals-white_background-736x459.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: #FCFAF5;
+  background-position: right bottom;
   color: white;
 }
 
 p {
   padding-top: 25px;
+  color: white;
 }
 
 p.second {
   text-align: left;
   font-size: 20px;
-  margin: 100px;
+  margin-right: 400px;
   padding: 100px;
+  color: #FF4F46;
+  font-size: 25px;
+  font-weight: bold;
 }
 }
